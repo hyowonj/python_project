@@ -68,6 +68,11 @@
 # else:
 #     print("0w0")
 
+
+
+'''
+소수 확인
+'''
 # d=int(input())
 # f=1
 # for c in range (2,d):
@@ -106,6 +111,10 @@
 #     print("*"*(a+1))
 #     a=a+1
 
+
+'''
+369
+'''
 # for i in range (1,100):
 #
 #     one = i % 10
@@ -119,3 +128,14 @@
 #         print("*")
 #     else:
 #         print(i)
+
+
+'''
+function, 함수
+'''
+# # *설명서
+# def cal_sum(x,y):
+#     z = x + y
+#     return z   #return: 함수를 종료, 값을 반환한다
+# result = cal_sum(3,2)
+# print(result)
