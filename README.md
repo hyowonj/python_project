@@ -19,3 +19,18 @@ Algorithm
 * algorithm_5_A - B
 * algorithm_6_소수찾기
 * algorithm_7_최소,최대
+
+
+Game
+=============
+* game_1_가위바위보
+* game_2_징검다리
+* game_3_틱택토
+* game_4_pokemon_1
+* game_5_pokemon_2
+* game_6_car_1
+* game_7_car_2
+
+Login
+=============
+* login_1
