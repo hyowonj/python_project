@@ -11,3 +11,4 @@ Basic Grammar
 * basic_9_while
 
 
+소수확인 별탑 최소값,최대값
