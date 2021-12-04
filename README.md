@@ -10,5 +10,12 @@ Basic Grammar
 * basic_8_list
 * basic_9_while
 
-
-소수확인 별탑 최소값,최대값
+Algorithm
+=============
+* algorithm_1_소수확인
+* algorithm_2_별탑
+* algorithm_3_최소값 최대값
+* algorithm_4_A + B
+* algorithm_5_A - B
+* algorithm_6_소수찾기
+* algorithm_7_최소,최대
