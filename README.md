@@ -6,4 +6,8 @@ Basic Grammar
 * basic_4_inequality_sign
 * basic_5_if
 * basic_6_for_input
-* 
+* basic_7_random
+* basic_8_list
+* basic_9_while
+
+
