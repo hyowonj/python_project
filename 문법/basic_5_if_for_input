@@ -6,7 +6,6 @@ if a%2==0:
 if a%2!=0:
     print(b)
 
-# 활용
 e = int(input()) #input->문자 int(input())->숫자
 print(e)
 for d in range(10):
