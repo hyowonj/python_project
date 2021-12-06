@@ -1,6 +1,5 @@
-
 '''
-포켓몬...?
+포켓몬
 '''
 import random
 
@@ -67,10 +66,4 @@ while player.hp > 0 and computer.hp > 0:
         print("you win")
 
 
-dictionary
-a = {}
-a['hi'] = 'hihihi'
-a['bye'] = 'byeee'
-print(a['hi'])
-print(a['bye'])
 
