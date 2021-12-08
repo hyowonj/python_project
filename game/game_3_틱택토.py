@@ -7,7 +7,7 @@ import random
 def make_map():
     tic_map = []
     for i in range(9):
-        tic_map.append(0)
+        tic_map.append(" ")
     return tic_map
 
 def print_map(tic_map):
@@ -29,25 +29,30 @@ print("총 9개의 칸이 있습니다. 9개 칸 중 가장 왼쪽 위에 있는
 print(print_map(tic_map))
 
 while True:
+
     # 플레이어 선, 컴퓨터 후
     if order == 1:
         a = "x"
         b = "o"
         player_1 = int(input("x를 놓을 칸을 입력해 주세요: "))
-        if tic_map[player_1] == 0:
+        if tic_map[player_1] == " ":
             tic_map[player_1] = "x"
             print("플레이어: {}".format(player_1))
             block_num -= 1
             computer = random.randrange(9)
-            while True:
-                if tic_map[computer] == 0:
-                    tic_map[computer] = "o"
-                    print("컴퓨터: {}".format(computer))
-                    print(print_map(tic_map))
-                    block_num -= 1
-                    break
-                else:
-                    computer = random.randrange(9)
+            if block_num == 0:
+                print(print_map(tic_map))
+                break
+            else:
+                while True:
+                    if tic_map[computer] == " ":
+                        tic_map[computer] = "o"
+                        print("컴퓨터: {}".format(computer))
+                        print(print_map(tic_map))
+                        block_num -= 1
+                        break
+                    else:
+                        computer = random.randrange(9)
         else:
             print("try again")
 
@@ -57,25 +62,29 @@ while True:
         b = "x"
         computer = random.randrange(9)
         while True:
-            if tic_map[computer] == 0:
+            if tic_map[computer] == " ":
                 tic_map[computer] = "x"
                 print("컴퓨터: {}".format(computer))
                 print(print_map(tic_map))
                 block_num -= 1
-                player_2 = int(input("o를 놓을 칸을 입력해 주세요: "))
-                while True:
-                    if tic_map[player_2] != 0:
-                        player_2 = int(input("o를 놓을 칸을 입력해 주세요: "))
-                    else:
-                        tic_map[player_2] = "o"
-                        print("플레이어: {}".format(player_2))
-                        block_num -= 1
-                        print(print_map(tic_map))
-                        break
+                if block_num == 0:
+                    print(print_map(tic_map))
+                    break
+                else:
+                    player_2 = int(input("o를 놓을 칸을 입력해 주세요: "))
+                    while True:
+                        if tic_map[player_2] != " ":
+                            player_2 = int(input("o를 놓을 칸을 입력해 주세요: "))
+                        else:
+                            tic_map[player_2] = "o"
+                            print("플레이어: {}".format(player_2))
+                            block_num -= 1
+                            print(print_map(tic_map))
+                            break
             else:
                 computer = random.randrange(9)
 
-    # 승부 확인
+    # 승부확인
     if tic_map[0] == a and tic_map[1] == a and tic_map[2] == a:
         print("you win")
         break
@@ -105,7 +114,4 @@ while True:
         break
     if tic_map[2] == b and tic_map[4] == b and tic_map[6] == b:
         print("you lose")
-        break
-    if block_num == 0:
-        print("draw")
         break
