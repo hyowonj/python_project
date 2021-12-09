@@ -94,6 +94,15 @@ while True:
     if tic_map[6] == a and tic_map[7] == a and tic_map[8] == a:
         print("you win")
         break
+    if tic_map[0] == a and tic_map[3] == a and tic_map[6] == a:
+        print("you win")
+        break
+    if tic_map[1] == a and tic_map[4] == a and tic_map[7] == a:
+        print("you win")
+        break
+    if tic_map[2] == a and tic_map[5] == a and tic_map[8] == a:
+        print("you win")
+        break
     if tic_map[0] == a and tic_map[4] == a and tic_map[8] == a:
         print("you win")
         break
@@ -107,6 +116,15 @@ while True:
         print("you lose")
         break
     if tic_map[6] == b and tic_map[7] == b and tic_map[8] == b:
+        print("you lose")
+        break
+    if tic_map[0] == a and tic_map[3] == a and tic_map[6] == a:
+        print("you lose")
+        break
+    if tic_map[1] == a and tic_map[4] == a and tic_map[7] == a:
+        print("you lose")
+        break
+    if tic_map[2] == a and tic_map[5] == a and tic_map[8] == a:
         print("you lose")
         break
     if tic_map[0] == b and tic_map[4] == b and tic_map[8] == b:
