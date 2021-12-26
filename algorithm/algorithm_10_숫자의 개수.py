@@ -1,3 +1,4 @@
+# 2577번(미완성)
 k = [0 for e in range(10)]
 a = int(input())
 b = int(input())
@@ -10,3 +11,7 @@ print(d)
 for i in range(len(d)):
     num = int(d[i])
     k[num] = k[num] + 1
+
+# k = {}
+# for i in range(len(d)):
+#     k[d[i]] += 1
