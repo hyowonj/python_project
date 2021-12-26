@@ -1,6 +1,3 @@
-'''
-가장 큰 값 작은 값 구하기
-'''
 import random
 a = []
 for i in range(10):
