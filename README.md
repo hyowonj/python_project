@@ -9,6 +9,15 @@ Basic Grammar
 * basic_7_random
 * basic_8_list
 * basic_9_while
+* basic_10_def
+* basic_11_class
+* basic_12_dictionary
+* basic_13_split
+* basic_14_복습
+* basic_15_Stack
+* basic_16_Queue
+* basic_17_Deque
+* basic_18_Tree
 
 Algorithm
 =============
