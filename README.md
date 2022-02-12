@@ -28,7 +28,18 @@ Algorithm
 * algorithm_5_A - B
 * algorithm_6_소수찾기
 * algorithm_7_최소,최대
-
+* algorithm_8_버블소트
+* algorithm_9_거스름돈
+* algorithm_10_숫자의 개수
+* algorithm_11_소수
+* algorithm_12_약수
+* algorithm_13_평균
+* algorithm_14_피보나치 수
+* algorithm_15_구구단
+* algorithm_16_제곱
+* algorithm_17_제곱ㄴㄴ수
+* algorithm_18_홀수
+* algorithm_19_카드1
 
 Game
 =============
